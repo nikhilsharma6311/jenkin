@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+       web:
+         image: apache
+         ports:
+             - "8080:80"
+       database:
+         image: redis
+         ports:
+             - "8000:80"
+
+
